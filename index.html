@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Delomedica</title>
+</head>
+<body>
+    
+        <div class="header container">
+            <div class="header__top">
+                <div class="header__name name">
+                    <div class="name__icon">
+                        <img src="./img/headerIcon.svg" alt="name icon">
+                    </div>
+                    <div class="name__line"></div>
+                    <div class="name__descr">
+                        <img src="./img/headerDescr.svg" alt="">
+                    </div>
+                </div>
+                <div class="header__info info">
+                    <div class="info__email">
+                        prof@diamed.group
+                    </div>
+                    <div class="info__tel">
+                        +7 (495) 281 53 33
+                    </div>
+                </div>                
+            </div>
+            <div class="header__botton">
+                <div class="header__menu-burger">
+                    <span></span>
+                </div>
+                <div class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                           <a href="#" class="menu__link">Подбор профосмотра</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link menu__link_services">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">О медцентре</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Галерея</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Благодарности</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Лицензии</a>                            
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__city">
+                    Ваш город: <a href="#" class="header__city--active">Королев</a>
+                </div>
+            </div>
+        </div>
+        <div class="menu-burger__container none">
+            <div class="menu-burger__info-bur">
+                <div class="info-bur__email">
+                    prof@diamed.group
+                </div>
+                <div class="info-bur__city">
+                    Ваш город: <a href="#" class="header__city--active">Королев</a>
+                </div>
+            </div>
+            <ul class="menu-burger__list">
+                <li class="menu-burger__item">
+                <a href="#" class="menu-burger__link">Подбор профосмотра</a>
+                </li>
+                <li class="menu-burger__item">
+                    <a href="#" class="menu-burger__link menu-burger__link-services">Услуги</a>
+                    <ul class="menu-burger__list-services list-services none">                        
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Предварительные и периодические медицинские осмотры</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Личные медицинские книжки (ЛМК)</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Психиатрическое освидетельствование</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Предрейсовые/послерейсовые медицинские осмотры</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Предсменные/послесменные медицинские осмотры</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Организация здравпункта на предприятии</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Диспансеризация</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Вакцинация</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Помощь в организации аттестации рабочих мест (СОУТ)</a>
+                        </li>
+                        <li class="list-services__item">
+                            <a href="#" class="list-services__link">Тендерный отдел</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li class="menu-burger__item">
+                    <a href="#" class="menu-burger__link">О медцентре</a>
+                </li>
+                <li class="menu-burger__item">
+                    <a href="#" class="menu-burger__link">Галерея</a>
+                </li>
+                <li class="menu-burger__item">
+                    <a href="#" class="menu-burger__link">Благодарности</a>
+                </li>
+                <li class="menu-burger__item">
+                    <a href="#" class="menu-burger__link">Лицензии</a>                            
+                </li>
+                <li class="menu-burger__item">
+                    <a href="#" class="menu-burger__link">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-info">
+            <div class="main-info__content container">
+                <div class="main-info__prof prof">
+                    <div class="prof__text">
+                       <span class="prof__text--bold">Проведение профосмотров от 600 руб./чел.</span><br><span class="prof__text--normal">с выездом в вашу организацию</span>
+                    </div>
+
+                    <div class="prof__options">
+                        <div class="prof__item item">
+                            <div class="item__img">
+                                <img src="./img/main-form1.svg" alt="main-form1">
+                            </div>
+                            <div class="item__text">
+                                Сделаем за вас все: от подбора типа профосмотра до выдачи всех документов
+                            </div>
+                        </div>
+                        <div class="prof__item item">
+                            <div class="item__img">
+                                <img src="./img/main-form2.svg" alt="main-form2">
+                            </div>
+                            <div class="item__text">
+                                Работаем строго по 302н Приказу Минздравсоцразвития
+                            </div>
+                        </div>
+                        <div class="prof__item item">
+                            <div class="item__img">
+                                <img src="./img/main-form3.svg" alt="main-form3">
+                            </div>
+                            <div class="item__text">
+                                Результаты профосмотра всего за 7 дней
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prof__link">
+                        <a href="#">Подобрать профосмотр</a>
+                    </div>
+                    <div class="form__button form__button--prof">
+                        <a href="#" class="form__button--link">Получить коммерческое предложение</a>
+                    </div>
+                </div>
+
+                <img src="./img/girl.svg" alt="woman" class="woman">
+
+                <div class="main-info__form form">
+                    <div class="form__container">
+                        <div class="form__text">
+                            Оставьте заявку, и мы предоставим полный план профосмотра с расчетом итоговой стоимости, подходящий именно вашей организации
+                        </div>
+                        <div class="form__tel">
+                            <input type="tel" placeholder="Ваш номер телефона*">
+                        </div>
+                        <div class="form__button">
+                            <a href="#" class="form__button--link">Получить коммерческое предложение</a>
+                        </div>
+    
+                        <div class="form__subtext">
+                            Передавая информацию сайту, вы принимаете условия
+                            <div class="form__subtext--link">
+                                <a href="#">Политики защиты персональной информации</a>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+
+        <div class="modal none">
+            <div class="modal__container">
+                <div class="modal__close">
+
+                </div>
+                <div class="modal__text">
+                    Оставьте заявку, и мы предоставим полный план профосмотра с расчетом итоговой стоимости, подходящий именно вашей организации
+                </div>
+                <div class="modal__tel">
+                    <input type="tel" name="tel" id="tel" placeholder="Ваш номер телефона*">
+                </div>
+                <div class="modal__btn">
+                    <a href="#" class="modal__btn--link">Получить коммерческое предложение</a>
+                </div>
+                <div class="modal__confid">
+                    <div class="confid__text">
+                        Передавая информацию сайту, вы принимаете условия
+                    </div>
+                    <div class="confid__subtext">
+                        <a href="#" class="confid__subtext--link">Политики защиты персональной информации</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-questions">
+            <div class="questions container">
+                <div class="questions-title">
+                    <div class="questions-title__name">
+                        Не знаете, какой профосмотр подойдет вашей организации?
+                    </div>
+                    <div class="questions-title__subname">
+                        Ответьте на 4 вопроса, и мы подберем подходящий профосмотр, рассчитаем стоимость его проведения и вышлем коммерческое предложение
+                    </div>
+                </div>         
+            </div>
+
+            <div class="steps container">
+                <div class="steps__img">
+                    <img src="./img/step1.png" alt="step1">
+                </div>
+                <div class="steps__main-body main-body">
+                    <div class="main-body__numbers numbers">
+                        <ul class="numbers__list">
+                            <li class="numbers__item numbers__item--active">
+                                Шаг 1
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 2
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 3
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 4
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-body__text">
+                        <div class="main-body__text-number">1</div>
+                        <div class="main-body__text-number--subtext">Чем занимается ваша компания?</div>
+                    </div>
+                    <div class="main-body__form">
+                        <input type="textarea" placeholder="Введите ответ">
+                    </div>
+                    <div class="steps__button steps__button--next">
+                        <a href="#" class="steps__button--link">Далее</a>
+                    </div>
+                </div>                
+            </div>
+            <div class="steps container">
+                <div class="steps__img">
+                    <img src="./img/step2.png" alt="step2">
+                </div>
+                <div class="steps__main-body main-body">
+                    <div class="main-body__numbers numbers">
+                        <ul class="numbers__list">
+                            <li class="numbers__item">
+                                Шаг 1
+                            </li>
+                            <li class="numbers__item numbers__item--active">
+                                Шаг 2
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 3
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 4
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-body__text">
+                        <div class="main-body__text-number">2</div>
+                        <div class="main-body__text-number--subtext">Укажите вид необходимой услуги<br>
+                            (Можно выбрать несколько вариантов)</div>
+                    </div>
+                    <div class="main-body__checkboxes checkboxes">
+                        <div class="checkboxes__row1">
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Предварительный/периодический медицинский осмотр
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Выездной медицинский осмотр (профосмотр)
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Личные медицинские книжки (ЛМК)
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Психиатрическое освидетельствование
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Предрейсовые/послерейсовые профосмотры
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Предсменные/послесменные профосмотры
+                            </label>
+                        </div>
+
+                        <div class="checkboxes__row2">
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Организация здравпункта на предприятии
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Диспансеризация
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Вакцинация
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Помощь в организации аттестации рабочих мест (СОУТ)
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Тендерный отдел
+                            </label>
+                            <label class="checkboxes__item">
+                                <input type="checkbox" class="checkboxes__input">
+                                <span class="checkboxes__box"></span>
+                                Я не знаю, нужна помощь в подборе
+                            </label>
+                        </div>
+                        
+                    </div>
+                    <div class="steps__buttons">
+                        <div class="steps__button steps__button--prev">
+                            <a href="#" class="steps__button--link">Назад</a>
+                        </div>
+                        <div class="steps__button steps__button--next">
+                            <a href="#" class="steps__button--link">Далее</a>
+                        </div>
+                    </div>                    
+                </div>                
+            </div>
+            <div class="steps container">
+                <div class="steps__img">
+                    <img src="./img/step3.png" alt="step3">
+                </div>
+                <div class="steps__main-body main-body">
+                    <div class="main-body__numbers numbers">
+                        <ul class="numbers__list">
+                            <li class="numbers__item">
+                                Шаг 1
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 2
+                            </li>
+                            <li class="numbers__item numbers__item--active">
+                                Шаг 3
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 4
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-body__text">
+                        <div class="main-body__text-number">3</div>
+                        <div class="main-body__text-number--subtext">Укажите количество сотрудников, которым нужно 
+                            провести профосмотр.</div>
+                    </div>
+                    <div class="main-body__form">
+                        <input type="textarea" placeholder="Введите число">
+                    </div>
+                    <div class="steps__buttons">
+                        <div class="steps__button steps__button--prev">
+                            <a href="#" class="steps__button--link">Назад</a>
+                        </div>
+                        <div class="steps__button steps__button--next">
+                            <a href="#" class="steps__button--link">Далее</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="steps container">
+                <div class="steps__img">
+                    <img src="./img/step4.png" alt="step4">
+                </div>
+                <div class="steps__main-body main-body">
+                    <div class="main-body__numbers numbers">
+                        <ul class="numbers__list">
+                            <li class="numbers__item">
+                                Шаг 1
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 2
+                            </li>
+                            <li class="numbers__item">
+                                Шаг 3
+                            </li>
+                            <li class="numbers__item numbers__item--active">
+                                Шаг 4
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-body__text">
+                        <div class="main-body__text-number">4</div>
+                        <div class="main-body__text-number--subtext">Вы планируете пройти профосмотр в одном из наших медцентров или требуется выездная бригада?</div>
+                    </div>
+                    <div class="main-body__radio radio">
+                        <label class="radio__label">
+                            <input class="radio__input" type="radio" value="medcenter" checked name="category"/>
+                            <span class="radio__box"></span>
+                            В медцентре
+                        </label>                                              
+                        <label class="radio__label option">
+                            <input class="radio__input" type="radio" value="departure" name="category"/>
+                            <span class="radio__box"></span>
+                            Требуется выездная бригада
+                        </label>
+                    </div>
+                    <div class="steps__buttons">
+                        <div class="steps__button steps__button--prev">
+                            <a href="#" class="steps__button--link">Назад</a>
+                        </div>
+                        <div class="steps__button steps__button--next">
+                            <a href="#" class="steps__button--link">Далее</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="steps container">
+                <div class="steps__main-body main-body">
+                    <div class="main-info__form-end form-end">
+                        <div class="form-end__container">
+                            <div class="form__text form-end__text">
+                                Введите номер телефона, и мы вышлем вам расчет стоимости профосмотра и коммерческое предложение
+                            </div>
+                            <div class="form-end__soc">
+                                <div class="form__tel form-end__tel">
+                                    <input type="tel" placeholder="Ваш номер телефона*">
+                                </div>
+                                <div class="form__button form-end__button">
+                                    <a href="#" class="form__button--link">Получить коммерческое предложение</a>
+                                </div>
+                            </div>
+                            <div class="form__subtext form-end__subtext">
+                                Передавая информацию сайту, вы принимаете условия
+                                <div class="form__subtext--link form-end__subtext--link">
+                                    <a href="#">Политики защиты персональной информации</a>
+                                </div>
+                            </div>
+                        </div>                  
+                    </div>     
+            </div>
+        </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
