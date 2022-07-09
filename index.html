@@ -22,10 +22,10 @@
                 </div>
                 <div class="header__info info">
                     <div class="info__email">
-                        prof@diamed.group
+                        <a href="mailto:prof@diamed.group">prof@diamed.group</a>
                     </div>
                     <div class="info__tel">
-                        +7 (495) 281 53 33
+                        <a href="tel:+74952815333">+7 (495) 281 53 33</a>
                     </div>
                 </div>                
             </div>
@@ -142,7 +142,7 @@
                                 <img src="./img/main-form1.svg" alt="main-form1">
                             </div>
                             <div class="item__text">
-                                Сделаем за вас все: от подбора типа профосмотра до выдачи всех документов
+                                Сделаем за вас все:<br> от подбора типа профосмотра до выдачи всех документов
                             </div>
                         </div>
                         <div class="prof__item item">
@@ -233,7 +233,7 @@
                 </div>         
             </div>
 
-            <div class="steps container">
+            <div class="steps container" id="step">
                 <div class="steps__img">
                     <img src="./img/step1.png" alt="step1">
                 </div>
@@ -259,10 +259,10 @@
                         <div class="main-body__text-number--subtext">Чем занимается ваша компания?</div>
                     </div>
                     <div class="main-body__form">
-                        <input type="textarea" placeholder="Введите ответ">
+                        <input type="text" placeholder="Введите ответ">
                     </div>
-                    <div class="steps__button steps__button--next">
-                        <a href="#" class="steps__button--link" onclick="plusSlides(1)">Далее</a>
+                    <div class="steps__button steps__button--next" onclick="plusSlides(1)">
+                        <a href="#step" class="steps__button--link" >Далее</a>
                     </div>
                 </div>                
             </div>
@@ -361,11 +361,11 @@
                         
                     </div>
                     <div class="steps__buttons">
-                        <div class="steps__button steps__button--prev">
-                            <a href="#" class="steps__button--link" onclick="plusSlides(-1)">Назад</a>
+                        <div class="steps__button steps__button--prev" onclick="plusSlides(-1)">
+                            <a href="#step" class="steps__button--link">Назад</a>
                         </div>
-                        <div class="steps__button steps__button--next">
-                            <a href="#" class="steps__button--link" onclick="plusSlides(1)">Далее</a>
+                        <div class="steps__button steps__button--next" onclick="plusSlides(1)">
+                            <a href="#step" class="steps__button--link">Далее</a>
                         </div>
                     </div>                    
                 </div>                
@@ -397,14 +397,14 @@
                             провести профосмотр.</div>
                     </div>
                     <div class="main-body__form">
-                        <input type="textarea" placeholder="Введите число">
+                        <input type="text" placeholder="Введите число">
                     </div>
                     <div class="steps__buttons">
-                        <div class="steps__button steps__button--prev">
-                            <a href="#" class="steps__button--link" onclick="plusSlides(-1)">Назад</a>
+                        <div class="steps__button steps__button--prev" onclick="plusSlides(-1)">
+                            <a href="#step" class="steps__button--link">Назад</a>
                         </div>
-                        <div class="steps__button steps__button--next">
-                            <a href="#" class="steps__button--link" onclick="plusSlides(1)">Далее</a>
+                        <div class="steps__button steps__button--next" onclick="plusSlides(1)">
+                            <a href="#step" class="steps__button--link">Далее</a>
                         </div>
                     </div>
                 </div>                
@@ -447,11 +447,11 @@
                         </label>
                     </div>
                     <div class="steps__buttons">
-                        <div class="steps__button steps__button--prev">
-                            <a href="#" class="steps__button--link" onclick="plusSlides(-1)">Назад</a>
+                        <div class="steps__button steps__button--prev" onclick="plusSlides(-1)">
+                            <a href="#step" class="steps__button--link">Назад</a>
                         </div>
-                        <div class="steps__button steps__button--next">
-                            <a href="#" class="steps__button--link" onclick="plusSlides(1)">Далее</a>
+                        <div class="steps__button steps__button--next" onclick="plusSlides(1)">
+                            <a href="#step" class="steps__button--link">Далее</a>
                         </div>
                     </div>
                 </div>                
@@ -479,6 +479,7 @@
                             </div>
                         </div>                  
                     </div>     
+            </div>
             </div>
         </div>
     <script src="./js/script.js"></script>

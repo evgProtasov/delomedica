@@ -193,7 +193,7 @@ a.header__city--active {
     &__content {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 215px;
+        padding-bottom: 190px;
         position: relative;
     }
 
@@ -204,9 +204,12 @@ a.header__city--active {
 
     &__form {
         max-width: 370px;
+        min-height: 464px;
         margin-top: 190px;
-        padding: 63px 24px 0px 24px;
+        padding: 62px 24px 0px 24px;
         background-color: #fff;
+        border-radius: 6px;
+        background: url(../img/Rectangle\ 2.svg);
     }
 }
 
@@ -229,7 +232,7 @@ a.header__city--active {
 
     &__options {
         padding-top: 41px;
-        max-width: 283px;
+        max-width: 289px;
     }
 
     &__item {
@@ -239,6 +242,14 @@ a.header__city--active {
         padding-top: 38px;
         color: #009FE3;
     }
+}
+
+.prof__link a {
+    border-bottom: 1px solid #009FE3;
+}
+
+.prof__item:nth-child(2) {
+    max-width: 292px;
 }
 .item {
     display: flex;
@@ -601,13 +612,13 @@ textarea {
     &__tel {
         width: 100%;
         margin-top: 54px;
-        
+        padding: 25px 65px 20px 35px;
     }
 
     &__button {
         margin-top: 22px;
-        width: 100%;
-        
+        width: 100%;        
+        padding: 21px 35px;        
     }
 
     &__subtext {
@@ -656,20 +667,25 @@ textarea {
     }
 
     &__tel {
-        max-width: 322px;
+        min-width: 322px;
         margin-top: 32px;
         padding: 24px 66px 23px 21px;
         border: 1px solid #D5D5D5;
         border-radius: 6px;
+        display: flex;
+        align-self: center;
     }
 
     &__btn {
+        min-width: 322px;
         margin-top: 16px;
         background-color: #009FE3;
         color: #fff;
-        padding: 25px 8px;
+        padding: 25px 21px;
         border-radius: 6px;
         text-align: center;
+        display: flex;
+        align-self: center;
     }
 
     &__btn--link {
@@ -720,8 +736,9 @@ textarea {
 
     .main-info__form {
         margin-top: 100px;
-        padding: 15px 24px 0px 24px;
+        padding: 45px 24px 0px 24px;
         margin-right: 40px;
+        
     }
 }
 
@@ -928,10 +945,12 @@ textarea {
     .prof__text--normal {
         font-size: 21px;
         font-weight: 800;
+        line-height: 1.33em;
     }
 
     .prof__text--bold {
         font-size: 21px;
+        
     }
 
     .name__icon img {
@@ -950,6 +969,8 @@ textarea {
             width: 100%;
         }
         &__button {
+            padding-left: 3px;
+            padding-right: 3px;
             width: 100%;
         }
     }
