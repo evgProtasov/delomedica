@@ -257,7 +257,7 @@ a.header__city--active {
 }
 
 .prof__text {
-  max-width: 404px;
+  max-width: 420px;
 }
 .prof__text--bold {
   font-size: 2em;
@@ -336,7 +336,7 @@ a.header__city--active {
 }
 .form__tel {
   margin-top: 34px;
-  padding: 25px 65px 20px 22px;
+  padding: 25px 55px 20px 22px;
   border: 1px solid #D5D5D5;
   border-radius: 6px;
 }
@@ -430,6 +430,9 @@ input::-webkit-input-placeholder {
   background-color: #009FE3;
   color: #fff;
 }
+.steps__button--next:hover {
+  cursor: pointer;
+}
 .steps__button--prev {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -438,6 +441,9 @@ input::-webkit-input-placeholder {
       align-self: flex-start;
   color: #1A191C;
   padding-left: 10px;
+}
+.steps__button--prev:hover {
+  cursor: pointer;
 }
 .steps__button--next::after {
   content: url(../img/arrow.svg);
